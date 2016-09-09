@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imagem_gen_aventura"
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        android:scaleType="fitXY"
+        android:background="#898989"/>
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_gen_aventura"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Aventura"
+        android:textColor="#000000"
+        android:textSize="24sp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
